@@ -1,0 +1,27 @@
+.wrapper__input--information {
+    display: flex;
+}
+
+.radio__input {
+    display: none;
+}
+
+.radio__label {
+    margin-left: 20px;
+    position: relative;
+}
+
+.radio__label:before {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    content: '';
+    border: 2px solid blue;
+    border-radius: 50%;
+    left: -20%;
+    top: 2px;
+}
+
+.radio__input:checked+.radio__label:before {
+    background: blue;
+}

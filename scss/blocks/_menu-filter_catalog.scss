@@ -1,0 +1,46 @@
+.menu__filter {
+    min-height: 531px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    background-color: $white-color;
+    position: absolute;
+    display: none;
+}
+
+.menu__filter:active {
+    display: block;
+}
+
+.menu__filter-list {
+    list-style-type: none;
+}
+
+.menu__filter-item {
+    margin-left: 33px;
+}
+
+.menu__filter-heading {
+    min-height: 17px;
+    width: 73px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    color: $pink-dark-color;
+}
+
+.menu__filter-text {
+    min-height: 17px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.menu__filter-hr {
+    height: 0px;
+    width: 327px;
+    border-radius: 0px;
+    border: 1px solid $total-grey;
+}

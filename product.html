@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Product</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__wrapper">
+            <div class="header__logo-wrapper">
+                <a href="index.html">
+                    <img class="header__logo" src="img/logo.svg" width="44" height="38" alt="логотип">
+                </a>
+                <!---- <input type="search" class="search"> -->
+                <img src="img/lens.svg" alt="лупа" width="27" height="28">
+            </div>
+            <ul class="header__list">
+                <li>
+                    <button class="header__button">
+                        <img src="img/burger.svg" alt="логотип открывающего меню (бургер)" width="32" height="23">
+                    </button>
+                </li>
+                <li>
+                    <form action="registration.html">
+                        <button class="header__button-person">
+                            <img src="img/person.svg" alt="иконка аватара (человечка), персона" width="29" height="29">
+                        </button>
+                    </form>
+                </li>
+                <li>
+                    <form action="cart.html">
+                        <button class="header__button-cart">
+                            <img src="img/cart.svg" alt="корзина" width="32" height="29">
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="product__heading">
+        <div class="product__heading-wrapper container">
+            <h2 class="product__header container">
+                NEW ARRIVALS
+            </h2>
+            <div class="product__path">
+                <a href="index.html" class="product__link">
+                    <h3 class="product__path-home">HOME</h3>
+                </a>
+                <a href="product.html" class="product__link">
+                    <h3 class="product__path-men">/MEN</h3>
+                </a>
+                <a href="catalog.html">
+                    <h3 class="product__path-Arrivals">/NEW ARRIVALS</h3>
+                    </h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="carousel__wrapper container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/product/woman_in_white_tshirt.png" class="d-block w-100"
+                        alt="девушка в белой футболке">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/product/man_in_jacket.png" class="d-block w-100" alt="мужчина в куртке">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="collection">
+        <div class="collection__wrapper">
+            <ul class="collection__list">
+                <li class="collection__item">
+                    <h3 class="collection__header--pink">WOMEN COLLECTION</h3>
+                </li>
+                <li class="collection__item">
+                    <h2 class="collection__header--black">MOSCHINO CHEAP AND CHIC</h2>
+                </li>
+                <li class="collection__item">
+                    <hr class="collection__hr--pink">
+                </li>
+                <li class="collection__item">
+                    <p class="collection__text">Compellingly actualize fully researched processes before proactive
+                        outsourcing. Progressively syndicate collaborative architectures before cutting-edge
+                        services. Completely visualize parallel core competencies rather than exceptional portals.
+                    </p>
+                </li>
+                <li class="collection__item">
+                    <h2 class="collection__header--price">$561</h2>
+                </li>
+                <li class="collection__item">
+                    <hr class="collection__hr--black">
+                </li>
+                <li class="collection__item">
+                    <div class="collection__dropdown">
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton2"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                CHOOSE COLOR
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                <li><a class="dropdown-item active" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton2"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                CHOOSE SIZE
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                <li><a class="dropdown-item active" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton2"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                QUANTITY
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                <li><a class="dropdown-item active" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="collection__item">
+                    <div class="collection__button--wrapper">
+                        <button class="collection__button">
+                            <p class="collection__button--text">Add To Cart</p>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="goods__product--product container">
+        <ul class="goods__list--product">
+            <li class="goods__item">
+                <img src="img/goods-man-in-jacket.jpg" alt="мужчина в куртке" max-width="360" height="420">
+                <h3 class="goods__heading">Ellery X M'O Capsule</h3>
+                <p class="goods__text">Known for her sculptural takes on traditional tailoring, Australian arbiter
+                    of
+                    cool Kym Ellery teams up with Moda Operandi</p>
+                <p class="goods__price">$52.00</p>
+            </li>
+            <li class="goods__item">
+                <img src="img/goods-woman-in-black-suit.jpg" alt="девушка в костюме" max-width="360" height="420">
+                <h3 class="goods__heading">Ellery X M'O Capsule</h3>
+                <p class="goods__text">Known for her sculptural takes on traditional tailoring, Australian arbiter
+                    of
+                    cool Kym Ellery teams up with Moda Operandi</p>
+                <p class="goods__price">$52.00</p>
+            </li>
+            <li class="goods__item-product">
+                <img src="img/goods-man-in-shorts.jpg" alt="парень в бермудах" max-width="360" height="420">
+                <h3 class="goods__heading">Ellery X M'O Capsule</h3>
+                <p class="goods__text">Known for her sculptural takes on traditional tailoring, Australian arbiter
+                    of
+                    cool Kym Ellery teams up with Moda Operandi</p>
+                <p class="goods__price">$52.00</p>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <section class="subscribe">
+            <ul class="subscribe__list container">
+                <li class="subscribe__review">
+                    <div class="subscribe__item">
+                        <img src="img/sub-woman-face.png" alt="фотография с лицом улыбающейся девушки" width="145"
+                            height="150">
+                        <p class="subscribe__text">Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                            pulvinar
+                            purus condimentum</p>
+                    </div>
+                </li>
+                <li class="subscribe__email">
+                    <div class="subscribe__item">
+                        <h3 class="subscribe__heading">Subscribe<span class="subscribe__text--heading">For Our
+                                Newletter
+                                and Promotion</span></h3>
+                        <div class="subscribe__wrapper">
+                            <input type="email" placeholder="Enter Your Email" class="subscribe__input">
+                            <button class="subscribe__button">Subscribe</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="cellar">
+            <ul class="cellar__list container">
+                <li class="cellar__therights">
+                    <p class="cellar__text">© 2021 Brand All Rights Reserved.</p>
+                </li>
+                <div class="cellar__wrapper">
+                    <li class="cellar__links">
+                        <a href="#" class="link_facebook">
+                            <button class="cellar__button">
+                                <img src="img/facebook.svg" alt="иконка Facebook">
+                            </button>
+                        </a>
+                    </li>
+                    <li class="cellar__links">
+                        <a href="#" class="link_instagram">
+                            <button class="cellar__button">
+                                <img src="img/instagram.svg" alt="иконка Instagram">
+                            </button>
+                        </a>
+                    </li>
+                    <li class="cellar__links">
+                        <a href="#" class="link_pinterest">
+                            <button class="cellar__button">
+                                <img src="img/pinterest.svg" alt="иконка Pinterest">
+                            </button>
+                        </a>
+                    </li>
+                    <li class="cellar__links">
+                        <a href="#" class="link_twitter">
+                            <button class="cellar__button">
+                                <img src="img/twitter.svg" alt="иконка Twitter">
+                            </button>
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
