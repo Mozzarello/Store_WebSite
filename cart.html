@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cart</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__wrapper">
+            <div class="header__logo-wrapper">
+                <a href="index.html">
+                    <img class="header__logo" src="img/logo.svg" width="44" height="38" alt="логотип">
+                </a>
+                <!---- <input type="search" class="search"> -->
+                <img src="img/lens.svg" alt="лупа" width="27" height="28">
+            </div>
+            <ul class="header__list">
+                <li>
+                    <button class="header__button">
+                        <img src="img/burger.svg" alt="логотип открывающего меню (бургер)" width="32" height="23">
+                    </button>
+                </li>
+                <li>
+                    <form action="registration.html">
+                        <button class="header__button-person">
+                            <img src="img/person.svg" alt="иконка аватара (человечка), персона" width="29" height="29">
+                        </button>
+                    </form>
+                </li>
+                <li>
+                    <form action="cart.html">
+                        <button class="header__button-cart">
+                            <img src="img/cart.svg" alt="корзина" width="32" height="29">
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="registration">
+        <h2 class="registration__header container">
+            SHOPPING CART
+        </h2>
+    </div>
+    <div class="product__wrapper container">
+        <section class="cart__product container">
+            <section class="cart__product-mango">
+                <div class="cart__img-container">
+                    <img src="img/product_img_man_in_blue.jpg" class="cart__product-img" max-width="262" height="306"
+                        alt="мужчина в синей толстовке">
+                    <ul class="cart__product-list">
+                        <li class="cart__product-item">
+                            <h3 class="cart__product-heading">MANGO PEOPLE T-SHIRT</h3>
+                        </li>
+                        <li class="cart__product-item">
+                            <p class="cart__product-text">Price: $300</p>
+                        </li>
+                        <li class="cart__product-item">
+                            <p class="cart__product-text">Color: Red</p>
+                        </li>
+                        <li class="cart__product-item">
+                            <p class="cart__product-text">Size: Xl</p>
+                        </li>
+                        <li class="cart__product-item">
+                            <p class="cart__product-text">Quantity:</p>
+                        </li>
+                </div>
+                </ul>
+            </section>
+            <section class="cart__product-mango">
+                <div class="cart__img-container">
+                    <img src="img/product_img_man_in_red.jpg" class="cart__product-img" max-width="262" height="306"
+                        alt="мужчина в красной куртке">
+                    <ul class="cart__product-list">
+                        <li class="cart__product-item">
+                            <h3 class="cart__product-heading">MANGO PEOPLE T-SHIRT</h3>
+                        </li>
+                        <li class="cart__product-item">
+                            <p class="cart__product-text">Price: $300</p>
+                        </li>
+                        <li class="cart__product-item">
+                            <p class="cart__product-text">Color: Red</p>
+                        </li>
+                        <li class="cart__product-item">
+                            <p class="cart__product-text">Size: Xl</p>
+                        </li>
+                        <li class="cart__product-item">
+                            <p class="cart__product-text">Quantity:</p>
+                        </li>
+                </div>
+                </ul>
+            </section>
+            <div class="cart__product-button-container">
+                <button class="cart__button--clear">
+                    <p class="cart__product-button--text">CLEAR SHOPPING CART</p>
+                </button>
+                <button class="cart__button--continue">
+                    <p class="cart__product-button--text">CONTINUE SHOPPING</p>
+                </button>
+            </div>
+        </section>
+        <div class="delivery__total--wrapper">
+            <section class="delivery ">
+                <div class="wrapper__dilivery">
+                    <ul class="delivery__list">
+                        <li class="delivery__item">
+                            <h3 class="delivery__heading">SHIPPING ADRESS</h3>
+                        </li>
+                        <li class="delivery__item">
+                            <input type="text" class="delivery__input--origin" placeholder="Bangladesh">
+                        </li>
+                        <li class="delivery__item">
+                            <input type="text" class="delivery__input" placeholder="State">
+                        </li>
+                        <li class="delivery__item">
+                            <input type="text" class="delivery__input" placeholder="PostCode/Zip">
+                        </li>
+                        <li class="delivery__item">
+                            <button class="delivery__button">
+                                <p class="delivery__button-text">GET A QUOTE</p>
+                            </button>
+                        </li>
+                    </ul>
+            </section>
+            <section class="total">
+                <div class="total__wrapper">
+                    <ul class="total__list">
+                        <li class="total__item">
+                            <p class="total__text">SUB TOTAL</p>
+                        </li>
+                        <li class="total__item">
+                            <h2 class="total__heading">GRAND TOTAL</h2>
+                        </li>
+                        <li class="total__item">
+                            <hr class="total__straight">
+                        </li>
+                        <li class="total__item">
+                            <button class="total__button">
+                                <p class="total__button-text">PROCEED TO CHECKOUT</p>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer class="footer">
+        <section class="subscribe">
+            <ul class="subscribe__list container">
+                <li class="subscribe__review">
+                    <div class="subscribe__item">
+                        <img src="img/sub-woman-face.png" alt="фотография с лицом улыбающейся девушки" width="145"
+                            height="150">
+                        <p class="subscribe__text">Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                            pulvinar
+                            purus condimentum</p>
+                    </div>
+                </li>
+                <li class="subscribe__email">
+                    <div class="subscribe__item">
+                        <h3 class="subscribe__heading">Subscribe</h3>
+                        <h3 class="subscribe__text--heading">For Our Newletter
+                            and Promotion</h3>
+                        <div class="subscribe__wrapper">
+                            <input type="email" placeholder="Enter Your Email" class="subscribe__input">
+                            <button class="subscribe__button">Subscribe</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="cellar">
+            <ul class="cellar__list container">
+                <li class="cellar__therights">
+                    <p class="cellar__text">© 2021 Brand All Rights Reserved.</p>
+                </li>
+                <div class="cellar__wrapper">
+                    <li class="cellar__links">
+                        <a href="#" class="link_facebook">
+                            <button class="cellar__button">
+                                <img src="img/facebook.svg" alt="иконка Facebook">
+                            </button>
+                        </a>
+                    </li>
+                    <li class="cellar__links">
+                        <a href="#" class="link_instagram">
+                            <button class="cellar__button">
+                                <img src="img/instagram.svg" alt="иконка Instagram">
+                            </button>
+                        </a>
+                    </li>
+                    <li class="cellar__links">
+                        <a href="#" class="link_pinterest">
+                            <button class="cellar__button">
+                                <img src="img/pinterest.svg" alt="иконка Pinterest">
+                            </button>
+                        </a>
+                    </li>
+                    <li class="cellar__links">
+                        <a href="#" class="link_twitter">
+                            <button class="cellar__button">
+                                <img src="img/twitter.svg" alt="иконка Twitter">
+                            </button>
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </section>
+    </footer>
+</body>
+
+</html>

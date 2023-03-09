@@ -1,0 +1,23 @@
+.popup__filter-text {
+    min-height: 17px;
+    width: 44px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    position: relative;
+}
+
+.popup__filter-text:hover {
+    color: $pink-dark-color;
+}
+
+
+.popup__filter-text:after {
+    content: '';
+    background-image: url("../img/filter-img.svg");
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    left: 65px;
+}

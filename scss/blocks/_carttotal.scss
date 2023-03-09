@@ -1,0 +1,57 @@
+.total {
+  margin-top: 57px;
+  background-color: $total-grey;
+  padding: 39px 34px 42px 44px;
+  height: 214px;
+  max-width: 360px;
+
+  @include tablet {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  @include mobile {
+    margin-bottom: 70px;
+    padding-left: 20px;
+  }
+}
+
+.total__list {
+  list-style-type: none;
+}
+
+.total__text {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+}
+
+.total__heading {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  margin-top: 12px;
+}
+
+.total__straight {
+  background: $straight-grey;
+  margin-bottom: 17px;
+  margin-top: 21px;
+  height: 1px;
+}
+
+.total__button {
+  max-width: 273px;
+  min-height: 50px;
+  background-color: $pink-dark-color;
+  border: 0;
+}
+
+.total__button-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 19px;
+  color: $white-color;
+}
